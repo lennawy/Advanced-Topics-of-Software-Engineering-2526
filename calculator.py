@@ -103,7 +103,7 @@ class Calculator:
 
     def get_last_result(self):
         """Retrieves the last result from the stack."""
-        if self.stack:  # stack is not empty
+        if self.stack:
             return self.stack[-1]
         return 0
 
